@@ -1,0 +1,166 @@
+body{
+	font-style: sans-serif;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+.header h2{
+	text-align: center;
+}
+
+.navigation li{
+	cursor: pointer;
+	margin-right: 30px;
+	height: 50px;
+	padding-left: 70px;
+	list-style: none;
+	float: left;
+}
+
+.navigation{
+
+	background: rgb(9,54,121);
+	background: linear-gradient(90deg, rgba(9,54,121,1) 30%, rgba(0,212,255,1) 97%);
+
+}
+
+.nav-first{
+	padding-bottom: 25px;
+	background: rgb(9,54,121);
+	background: linear-gradient(90deg, rgba(9,54,121,1) 30%, rgba(0,212,255,1) 97%);
+}
+
+.nav-second{
+	padding-bottom: 35px;
+	background-color: rgb(189, 206, 211);
+}
+
+ul li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 50%;
+}
+
+.nav-first a {
+	color: white;
+	border: 0px solid;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+}
+
+.nav-second a {
+	color: white;
+	border: 0px solid;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: rgb(250, 120, 33);	
+}
+
+.content{
+	width: 900px;
+	height: 500px;
+}
+
+.content-top{
+	display: inline-block;
+}
+
+.content-top-item{
+	width: 20%;
+	float: left;
+	margin-right: 40px;
+}
+
+.content-top-img{
+	width: 20%;
+	
+}
+
+.content-top-text{
+    position: static;
+    font-size: 12px;
+	font-weight: bold;
+    color: #666666;
+}
+
+
+/* .footer{
+	text-align: center;
+	height: 25px;
+	width: 900px;
+	background-color: grey;
+	display: inline-block;
+} */
+
+#fixed-header {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	box-shadow: 0px 0px 5px grey  ;
+	background-color: white;
+}
+
+.img{
+	margin-top: 40px ;
+}
+
+.content-left{
+	float: left;
+	width: 60%;
+
+}
+
+.content-right{
+	float: left;
+	width: 40%;
+}
+
+.fitur-img-wrapper{
+	height: 350px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.fitur-img{
+	background-image: url(image/alam.jpg);
+	transition: all .5s;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+.fitur-img:hover, .fitur-img:focus{
+	transform:scale(1.2);
+}
+
+.fitur-text{
+	height: 60px;
+	background-color:rgb(47, 101, 201);
+}
+
+.fitur{
+	margin-bottom: 32px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.fitur-title-wrapper{
+	position: absolute;
+	bottom: 0;
+}
+
